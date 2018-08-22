@@ -1,0 +1,15 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="LIFEGAME by Fsharp" Height="300" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="textBoxText" Grid.Row="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></TextBox>
+        <Button x:Name="btnPlusOne" Grid.Row="1" Height="25" Margin="0,0,196,0">+1世代</Button>
+        <Button x:Name="btnAnotherTemplate" Grid.Row="1" Height="25" Margin="196,0,0,0" >別の形</Button>
+    </Grid>
+</Window>
