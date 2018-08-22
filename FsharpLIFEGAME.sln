@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpLIFEGAME", "FsharpLIFEGAME\FsharpLIFEGAME.fsproj", "{1088C590-0B3F-4430-ACC5-2F4368BA731C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1088C590-0B3F-4430-ACC5-2F4368BA731C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1088C590-0B3F-4430-ACC5-2F4368BA731C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1088C590-0B3F-4430-ACC5-2F4368BA731C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1088C590-0B3F-4430-ACC5-2F4368BA731C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {870AD5A5-7D7C-486C-A706-3816C4B17D3A}
+	EndGlobalSection
+EndGlobal
