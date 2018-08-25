@@ -106,7 +106,7 @@ let main argv =
                 | _ -> false
 
             roundState _nowArray
-            |> List.averageBy (fun x -> if x then 8.0 else 0.0)
+            |> List.sumBy (fun x -> if x then 1 else 0)
             |> int
             |> checkAlive _nowArray.[y].[x]
 
